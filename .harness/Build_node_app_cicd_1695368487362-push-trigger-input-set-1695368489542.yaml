@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_node_app_cicd_1695368487362-push-trigger-input-set
+  identifier: Build_node_app_cicd_1695368487362pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: notesappcicd
+  pipeline:
+    identifier: Build_node_app_cicd_1695368487362
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
