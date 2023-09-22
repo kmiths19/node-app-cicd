@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_node_app_cicd_1695368487362-pr-trigger-input-set
+  identifier: Build_node_app_cicd_1695368487362prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: notesappcicd
+  pipeline:
+    identifier: Build_node_app_cicd_1695368487362
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
